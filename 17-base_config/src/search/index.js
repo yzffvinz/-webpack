@@ -2,9 +2,9 @@
 
 import React from 'react';
 import ReactDom from 'react-dom';
-import './search.css'
+import './index.css'
 // import './lesssearch.less'
-import logo from './images/test-logo.png'
+import logo from '../images/test-logo.png'
 
 class Search extends React.Component {
   render () {
