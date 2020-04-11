@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  昵称：
+  <input id="nickname" />
+  <br />
+  <input id="msg" />
+  <button id="send">发送</button>
+  <div id="record">
+    <b>聊天记录</b>
+  </div>
+
+  <script>
+    var ws = new WebSocket('ws://localhost:2333');
+
+    document.getElementById('send').addEventListener('click', function(e) {
+      ws.send(document.getElementById('nickname').value + ':' + document.getElementById('msg').value);
+    });
+
+    ws.onmessage = function(e) {
+      let p = document.createElement('p');
+      p.innerHTML = e.data
+      document.getElementById('record').appendChild(p);
+    }
+  </script>
+</body>
+</html>
