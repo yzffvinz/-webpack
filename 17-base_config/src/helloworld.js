@@ -1,1 +1,1 @@
-export default 'helloworld123'
+export default 'helloworld123';

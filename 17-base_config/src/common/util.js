@@ -1,1 +1,1 @@
-export default  'common-util'
+export default 'common-util';
