@@ -6,6 +6,7 @@ import './index.css'
 // import './lesssearch.less'
 import logo from '../images/test-logo.png'
 import CommonIndex from '../common/util'
+import { treeShakingA } from '../common/tree-shaking'
 
 class Search extends React.Component {
   render () {
@@ -13,6 +14,8 @@ class Search extends React.Component {
       Search Text HotTest<img src={ logo }/>
       <br />
       { CommonIndex }
+      <br />
+      { treeShakingA() }
     </div>
   }
 }

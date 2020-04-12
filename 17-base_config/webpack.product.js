@@ -47,7 +47,7 @@ module.exports = {
     filename: '[name]_[chunkhash:8].js',
     path: path.join(__dirname, 'dist')
   },
-  mode: 'none',
+  mode: 'development',
   // devtool: 'inline-source-map',
   module: {
     rules: [
