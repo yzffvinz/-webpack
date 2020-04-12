@@ -2,11 +2,12 @@
 
 const path = require('path');
 const glob = require('glob');
-const { HotModuleReplacementPlugin } = require('webpack')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const OptimizeCSSAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const { HotModuleReplacementPlugin } = require('webpack');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const OptimizeCSSAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin');
 
 const setMPA = () => {
   const entry = {};
@@ -46,7 +47,8 @@ module.exports = {
     filename: '[name]_[chunkhash:8].js',
     path: path.join(__dirname, 'dist')
   },
-  mode: 'production',
+  mode: 'none',
+  // devtool: 'inline-source-map',
   module: {
     rules: [
       { test: /.js$/, use: 'babel-loader'},
@@ -94,13 +96,36 @@ module.exports = {
       new MiniCssExtractPlugin({
       filename: '[name]_[contenthash:8].css'
     }),
-    // new OptimizeCSSAssetsWebpackPlugin({
-    //   assetNameRegExp: /\.css$/,
-    //   cssProcessor: require('cssnano')
-    // }),
-    new CleanWebpackPlugin()
-  ].concat(htmlWebpackPlugins)
+    new OptimizeCSSAssetsWebpackPlugin({
+      assetNameRegExp: /\.css$/,
+      cssProcessor: require('cssnano')
+    }),
+    new CleanWebpackPlugin(),
+    new HtmlWebpackExternalsPlugin({
+      externals: [
+        {
+          module: 'react',
+          entry: 'https://11.url.cn/now/lib/16.2.0/react.min.js',
+          global: 'React',
+        },
+        {
+          module: 'react-dom',
+          entry: 'https://11.url.cn/now/lib/16.2.0/react-dom.min.js',
+          global: 'ReactDOM',
+        }
+      ],
+    })
+  ].concat(htmlWebpackPlugins),
+  // optimization: {
+  //   splitChunks: {
+  //     minSize: 0,
+  //     cacheGroups: {
+  //       commons: {
+  //         test: /(react|react-dom)/,
+  //         chunks: 'vendors',
+  //         minChunks: 2
+  //       }
+  //     }
+  //   }
+  // }
 };
-
-setMPA();
-

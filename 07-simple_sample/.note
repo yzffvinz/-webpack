@@ -1,4 +1,0 @@
-1. 安装nvm管理node版本
-2. 安装webpack、webpack-cli
-3. 创建简单的webpack配置
-4. package.json添加scripts，方便进行打包
