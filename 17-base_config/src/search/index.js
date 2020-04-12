@@ -10,7 +10,9 @@ import CommonIndex from '../common/util'
 class Search extends React.Component {
   render () {
     return <div className="search-font">
-      { CommonIndex } Search Text HotTest<img src={ logo }/>
+      Search Text HotTest<img src={ logo }/>
+      <br />
+      { CommonIndex }
     </div>
   }
 }
