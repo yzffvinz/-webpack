@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import './index.css';
 // import './lesssearch.less'
+import vincentTwoSum from 'vincent-two-sum';
 import logo from '../images/test-logo.png';
 import CommonIndex from '../common/util';
 import { treeShakingA } from '../common/tree-shaking';
@@ -26,6 +27,7 @@ class Search extends React.Component {
 
   render() {
     const { Text } = this.state;
+    const arr = vincentTwoSum([1, 2, 3, 4], 3);
     return (
       // eslint-disable-next-line react/jsx-filename-extension
       <div className="search-font">
@@ -41,6 +43,9 @@ class Search extends React.Component {
         { CommonIndex }
         <br />
         { treeShakingA() }
+        <br />
+        This is vincent two sum answer
+        { arr }
       </div>
     );
   }
