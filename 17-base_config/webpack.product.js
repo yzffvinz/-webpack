@@ -6,6 +6,7 @@ const OptimizeCSSAssetsWebpackPlugin = require('optimize-css-assets-webpack-plug
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin');
+const FriendlyErrorsWepackPlugin = require('friendly-errors-webpack-plugin');
 
 const setMPA = () => {
   const entry = {};
@@ -80,7 +81,7 @@ module.exports = {
           },
         ],
       },
-      // { test: /.less$/, use: ['style-loader', 'css-loader', 'less-loader'] },
+      { test: /.less$/, use: ['style-loader', 'css-loader', 'less-loader'] },
       {
         test: /\.png|svg|jpg|gif$/,
         use: [{
@@ -125,7 +126,17 @@ module.exports = {
         },
       ],
     }),
+    new FriendlyErrorsWepackPlugin(),
+    function() {
+      this.hooks.done.tap('done', (stats) => {
+        if (stats.compilation.errors && stats.compilation.errors.length && process.argv.indexOf('--watch') == -1) {
+          console.log('37 custom handle');
+          process.exit(6);
+        }
+      })
+    },
   ].concat(htmlWebpackPlugins),
+  stats: 'errors-only'
   // optimization: {
   //   splitChunks: {
   //     minSize: 0,
