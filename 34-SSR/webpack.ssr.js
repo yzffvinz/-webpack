@@ -42,8 +42,9 @@ const { entry, htmlWebpackPlugins } = setMPA();
 module.exports = {
   entry,
   output: {
-    filename: '[name]_[chunkhash:8].js',
+    filename: '[name]-server.js',
     path: path.join(__dirname, 'dist'),
+    libraryTarget: 'umd'
   },
   mode: 'none',
   devtool: 'source-map',
