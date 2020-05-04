@@ -6,6 +6,15 @@ const baseConfig = require('./webpack.base.js');
 
 const prodConfig = {
   mode: 'production',
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: 'ignore-loader',
+      },
+      { test: /\.less$/, use: 'ignore-loader' },
+    ],
+  },
   plugins: [
     new OptimizeCSSAssetsWebpackPlugin({
       assetNameRegExp: /\.css$/,

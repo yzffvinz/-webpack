@@ -1,22 +1,27 @@
+
+const autoprefixer = require('autoprefixer');
 const glob = require('glob');
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const autoprefixer = require('autoprefixer');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FriendlyErrorsWepackPlugin = require('friendly-errors-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
+const projectRoot = process.cwd();
 
 const setMPA = () => {
   const entry = {};
   const htmlWebpackPlugins = [];
-  const entryFiles = glob.sync(path.join(__dirname, './src/*/index.js'));
+  const entryFiles = glob.sync(path.join(projectRoot, './src/*/index.js'));
   Object.keys(entryFiles).map((index) => {
     const entryFile = entryFiles[index];
+
     const match = entryFile.match(/src\/(.*)\/index.js/);
     const pageName = match && match[1];
+
     entry[pageName] = entryFile;
     return htmlWebpackPlugins.push(new HtmlWebpackPlugin({
-      template: path.join(__dirname, `src/${pageName}/index.html`),
+      template: path.join(projectRoot, `src/${pageName}/index.html`),
       filename: `${pageName}.html`,
       chunks: ['commons', pageName],
       inject: true,
@@ -40,6 +45,10 @@ const { entry, htmlWebpackPlugins } = setMPA();
 
 module.exports = {
   entry,
+  output: {
+    path: path.join(projectRoot, 'dist'),
+    filename: '[name]_[chunkhash:8].js',
+  },
   module: {
     rules: [
       {
@@ -54,6 +63,14 @@ module.exports = {
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
+        ],
+      },
+      {
+        test: /.less$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'less-loader',
           {
             loader: 'postcss-loader',
             options: {
@@ -73,7 +90,6 @@ module.exports = {
           },
         ],
       },
-      { test: /.less$/, use: ['style-loader', 'css-loader', 'less-loader'] },
       {
         test: /\.png|svg|jpg|gif$/,
         use: [{
@@ -104,7 +120,6 @@ module.exports = {
     function errorPlugin() {
       this.hooks.done.tap('done', (stats) => {
         if (stats.compilation.errors && stats.compilation.errors.length && process.argv.indexOf('--watch') === -1) {
-          console.log('build error'); // eslint-disable-line
           process.exit(1);
         }
       });
