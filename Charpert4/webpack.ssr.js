@@ -2,13 +2,25 @@
 const cssnano = require('cssnano');
 const merge = require('webpack-merge');
 const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin');
-const OptimizeCSSAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin');
-const baseConfig = require('./webpack.base.js');
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const baseConfig = require('webpack-build-suite/lib/webpack.base');
 
 const prodConfig = {
   mode: 'production',
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: 'ignore-loader',
+      },
+      {
+        test: /\.less$/,
+        use: 'ignore-loader',
+      },
+    ],
+  },
   plugins: [
-    new OptimizeCSSAssetsWebpackPlugin({
+    new OptimizeCSSAssetsPlugin({
       assetNameRegExp: /\.css$/g,
       cssProcessor: cssnano,
     }),

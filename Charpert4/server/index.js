@@ -6,9 +6,9 @@ const fs = require('fs');
 const path = require('path');
 const express = require('express');
 const { renderToString } = require('react-dom/server');
-const SSR = require('../dist/search-server');
+const SSR = require('../dist/search_d1cbf905.js');
 
-const tpl = fs.readFileSync(path.join(__dirname, '../dist/search-server.html'), 'utf-8');
+const tpl = fs.readFileSync(path.join(__dirname, '../dist/search.html'), 'utf-8');
 
 
 const server = (port) => {
@@ -16,8 +16,6 @@ const server = (port) => {
 
   app.use(express.static('../dist'));
   app.get('/search', (req, res) => {
-    console.log(SSR);
-    console.log(renderToString(SSR));
     const html = renderMarkup(renderToString(SSR));
     res.status(200).send(html);
   });
