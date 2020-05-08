@@ -52,13 +52,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /.js$/,
-        use: [
-          'babel-loader',
-          // 'eslint-loader',
-        ],
-      },
-      {
         test: /.css$/,
         use: [
           MiniCssExtractPlugin.loader,
@@ -76,7 +69,12 @@ module.exports = {
             options: {
               plugins: () => [
                 autoprefixer({
-                  browsers: ['last 2 version', '>1%', 'ios 7'],
+                  overrideBrowserslist: [
+                    "defaults",
+                    "not IE 11",
+                    "not IE_Mob 11",
+                    "maintained node versions"
+                  ]
                 }),
               ],
             },
@@ -116,13 +114,14 @@ module.exports = {
       filename: '[name]_[contenthash:8].css',
     }),
     new CleanWebpackPlugin(),
-    // new FriendlyErrorsWepackPlugin(),
-    function errorPlugin() {
-      this.hooks.done.tap('done', (stats) => {
-        if (stats.compilation.errors && stats.compilation.errors.length && process.argv.indexOf('--watch') === -1) {
-          process.exit(1);
-        }
-      });
-    },
+    new FriendlyErrorsWepackPlugin(),
+    // function errorPlugin() {
+    //   this.hooks.done.tap('done', (stats) => {
+    //     if (stats.compilation.errors && stats.compilation.errors.length && process.argv.indexOf('--watch') === -1) {
+    //       process.exit(1);
+    //     }
+    //   });
+    // }
   ].concat(htmlWebpackPlugins),
+  // stats: 'errors-only'
 };

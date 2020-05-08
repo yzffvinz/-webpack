@@ -5,11 +5,31 @@ const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin');
 const OptimizeCSSAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin');
 const baseConfig = require('./webpack.base.js');
 const speedMeasureWebpackPlugin = require('speed-measure-webpack-plugin');
+const HappyPack = require('happypack');
+const TerserPlugin = require('terser-webpack-plugin');
 const smp = new speedMeasureWebpackPlugin();
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 const prodConfig = {
-  mode: 'production',
+  mode: 'none',
+  module: {
+    rules: [
+      {
+        test: /.js$/,
+        use: [
+          // {
+          //   loader: 'thread-loader',
+          //   options: {
+          //     workers: 3
+          //   }
+          // },
+          // 'babel-loader',
+          'happypack/loader'
+          // 'eslint-loader',
+        ],
+      }
+    ]
+  },
   plugins: [
     new OptimizeCSSAssetsWebpackPlugin({
       assetNameRegExp: /\.css$/g,
@@ -29,20 +49,28 @@ const prodConfig = {
     //     },
     //   ],
     // }),
-    new BundleAnalyzerPlugin()
+    new HappyPack({
+      loaders: ['babel-loader']
+    })
+    // new BundleAnalyzerPlugin()
   ],
   optimization: {
-    splitChunks: {
-      minSize: 0,
-      cacheGroups: {
-        commons: {
-          name: 'commons',
-          chunks: 'all',
-          minChunks: 2,
-        },
-      },
-    },
+    // splitChunks: {
+    //   minSize: 0,
+    //   cacheGroups: {
+    //     commons: {
+    //       name: 'commons',
+    //       chunks: 'all',
+    //       minChunks: 2,
+    //     },
+    //   },
+    // },
+    minimizer: [
+      new TerserPlugin({
+        parallel: false,
+      }),
+    ]
   },
 };
 
-module.exports = smp.wrap(merge(baseConfig, prodConfig));
+module.exports = merge(baseConfig, prodConfig);
