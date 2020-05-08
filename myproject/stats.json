@@ -1,0 +1,3482 @@
+{
+  "errors": [],
+  "warnings": [
+    "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  Textar-Min_a80903b9.ttf (1.67 MiB)"
+  ],
+  "version": "4.43.0",
+  "hash": "1a036e97f7d22ce9d5da",
+  "time": 2912,
+  "builtAt": 1588916411642,
+  "publicPath": "",
+  "outputPath": "D:\\DevWorkspace\\webpack-mine\\myproject\\dist",
+  "assetsByChunkName": {
+    "commons": "commons_4db05645.js",
+    "index": "index_3013af63.js",
+    "search": [
+      "search_f1ed0e17.css",
+      "search_13762ff9.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "3_4c402171.js",
+      "size": 195,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "Textar-Min_a80903b9.ttf",
+      "size": 1756100,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true,
+      "isOverSizeLimit": true
+    },
+    {
+      "name": "commons_4db05645.js",
+      "size": 109,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "commons"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "index.html",
+      "size": 541,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "index_3013af63.js",
+      "size": 1632,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "search.html",
+      "size": 2663,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "search_13762ff9.js",
+      "size": 6052,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "search"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "search_f1ed0e17.css",
+      "size": 209,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "search"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "test-logo_d850defa.png",
+      "size": 1230,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "index": {
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [
+        "commons_4db05645.js",
+        "index_3013af63.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "search": {
+      "chunks": [
+        0,
+        2
+      ],
+      "assets": [
+        "commons_4db05645.js",
+        "search_f1ed0e17.css",
+        "search_13762ff9.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "index": {
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [
+        "commons_4db05645.js",
+        "index_3013af63.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "search": {
+      "chunks": [
+        0,
+        2
+      ],
+      "assets": [
+        "commons_4db05645.js",
+        "search_f1ed0e17.css",
+        "search_13762ff9.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "reason": "split chunk (cache group: commons) (name: commons)",
+      "size": 29,
+      "names": [
+        "commons"
+      ],
+      "files": [
+        "commons_4db05645.js"
+      ],
+      "hash": "4db0564584e193b7fb68",
+      "siblings": [
+        1,
+        2
+      ],
+      "parents": [],
+      "children": [
+        3
+      ],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 1,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\common\\util.js",
+          "name": "./src/common/util.js",
+          "index": 2,
+          "index2": 1,
+          "size": 29,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../common/util",
+              "loc": "29:0-41"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "../common/util",
+              "loc": "73:58-69"
+            },
+            {
+              "moduleId": 8,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js 00a478192ca966546377930e191387f5",
+              "module": "./src/index/index.js + 1 modules",
+              "moduleName": "./src/index/index.js + 1 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../common/util",
+              "loc": "2:0-41"
+            },
+            {
+              "moduleId": 8,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js 00a478192ca966546377930e191387f5",
+              "module": "./src/index/index.js + 1 modules",
+              "moduleName": "./src/index/index.js + 1 modules",
+              "type": "harmony import specifier",
+              "userRequest": "../common/util",
+              "loc": "5:15-26"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "export default 'common-util';"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "D:/DevWorkspace/webpack-mine/myproject/src/index/index.js",
+          "reasons": []
+        },
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "search",
+          "request": "D:/DevWorkspace/webpack-mine/myproject/src/search/index.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 200,
+      "names": [
+        "index"
+      ],
+      "files": [
+        "index_3013af63.js"
+      ],
+      "hash": "3013af638d805ef7dc40",
+      "siblings": [
+        0
+      ],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 8,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js 00a478192ca966546377930e191387f5",
+          "name": "./src/index/index.js + 1 modules",
+          "index": 0,
+          "index2": 2,
+          "size": 200,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:/DevWorkspace/webpack-mine/myproject/src/index/index.js",
+              "loc": "index"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./src/common/util.js"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js",
+              "name": "./src/index/index.js",
+              "index": 0,
+              "index2": 2,
+              "size": 164,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:/DevWorkspace/webpack-mine/myproject/src/index/index.js",
+                  "loc": "index"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is an entry point"
+              ],
+              "depth": 0,
+              "source": "import helloWorld from '../helloworld';\nimport CommonIndex from '../common/util';\ndocument.write(helloWorld);\ndocument.write('<br />');\ndocument.write(CommonIndex);"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\helloworld.js",
+              "name": "./src/helloworld.js",
+              "index": 1,
+              "index2": 0,
+              "size": 31,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js",
+              "issuerId": null,
+              "issuerName": "./src/index/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js",
+                  "name": "./src/index/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js",
+                  "module": "./src/index/index.js",
+                  "moduleName": "./src/index/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../helloworld",
+                  "loc": "1:0-39"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js",
+                  "module": "./src/index/index.js",
+                  "moduleName": "./src/index/index.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "../helloworld",
+                  "loc": "3:15-25"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "export default 'helloworld123';"
+            }
+          ],
+          "filteredModules": 0
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "D:/DevWorkspace/webpack-mine/myproject/src/index/index.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 7499,
+      "names": [
+        "search"
+      ],
+      "files": [
+        "search_f1ed0e17.css",
+        "search_13762ff9.js"
+      ],
+      "hash": "13762ff9c1046426d081",
+      "siblings": [
+        0
+      ],
+      "parents": [],
+      "children": [
+        3
+      ],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "external \"React\"",
+          "name": "external \"React\"",
+          "index": 4,
+          "index2": 3,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "23:0-26"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "68:8-13"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "70:47-52"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "70:100-105"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "70:159-164"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "73:25-30"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "73:84-89"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "73:146-151"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "79:2-7"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "81:30-35"
+            },
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\common\\dynamic-import.js",
+              "module": "./src/common/dynamic-import.js",
+              "moduleName": "./src/common/dynamic-import.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "2:0-26"
+            },
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\common\\dynamic-import.js",
+              "module": "./src/common/dynamic-import.js",
+              "moduleName": "./src/common/dynamic-import.js",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "5:22-27"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": 2,
+          "identifier": "external \"ReactDOM\"",
+          "name": "external \"ReactDOM\"",
+          "index": 5,
+          "index2": 4,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react-dom",
+              "loc": "24:0-33"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react-dom",
+              "loc": "81:0-8"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "id": 3,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\vincent-two-sum\\index.js",
+          "name": "./node_modules/vincent-two-sum/index.js",
+          "index": 10,
+          "index2": 10,
+          "size": 167,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "vincent-two-sum",
+              "loc": "27:0-44"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "vincent-two-sum",
+              "loc": "64:16-29"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "if (process.env.NODE_ENV === 'production') {\n  module.exports = require('./dist/vinz-two-sum.min.js');\n} else {\n  module.exports = require('./dist/vinz-two-sum.js');\n}"
+        },
+        {
+          "id": 4,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+          "name": "./src/search/index.css",
+          "index": 6,
+          "index2": 6,
+          "size": 39,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./index.css",
+              "loc": "25:0-21"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "// extracted by mini-css-extract-plugin"
+        },
+        {
+          "id": 5,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+          "name": "./src/search/lesssearch.less",
+          "index": 8,
+          "index2": 8,
+          "size": 39,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+            "Textar-Min_a80903b9.ttf"
+          ],
+          "reasons": [
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+              "module": "./src/search/index.js + 2 modules",
+              "moduleName": "./src/search/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./lesssearch.less",
+              "loc": "26:0-27"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "// extracted by mini-css-extract-plugin"
+        },
+        {
+          "id": 6,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\vincent-two-sum\\dist\\vinz-two-sum.min.js",
+          "name": "./node_modules/vincent-two-sum/dist/vinz-two-sum.min.js",
+          "index": 11,
+          "index2": 9,
+          "size": 1923,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\vincent-two-sum\\index.js",
+          "issuerId": 3,
+          "issuerName": "./node_modules/vincent-two-sum/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            },
+            {
+              "id": 3,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\vincent-two-sum\\index.js",
+              "name": "./node_modules/vincent-two-sum/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\vincent-two-sum\\index.js",
+              "module": "./node_modules/vincent-two-sum/index.js",
+              "moduleName": "./node_modules/vincent-two-sum/index.js",
+              "type": "cjs require",
+              "userRequest": "./dist/vinz-two-sum.min.js",
+              "loc": "2:19-56"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2,
+          "source": "!function (e, t) {\n  \"object\" == typeof exports && \"object\" == typeof module ? module.exports = t() : \"function\" == typeof define && define.amd ? define([], t) : \"object\" == typeof exports ? exports.vinzTwoSum = t() : e.vinzTwoSum = t();\n}(window, function () {\n  return function (e) {\n    var t = {};\n\n    function n(r) {\n      if (t[r]) return t[r].exports;\n      var o = t[r] = {\n        i: r,\n        l: !1,\n        exports: {}\n      };\n      return e[r].call(o.exports, o, o.exports, n), o.l = !0, o.exports;\n    }\n\n    return n.m = e, n.c = t, n.d = function (e, t, r) {\n      n.o(e, t) || Object.defineProperty(e, t, {\n        enumerable: !0,\n        get: r\n      });\n    }, n.r = function (e) {\n      \"undefined\" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {\n        value: \"Module\"\n      }), Object.defineProperty(e, \"__esModule\", {\n        value: !0\n      });\n    }, n.t = function (e, t) {\n      if (1 & t && (e = n(e)), 8 & t) return e;\n      if (4 & t && \"object\" == typeof e && e && e.__esModule) return e;\n      var r = Object.create(null);\n      if (n.r(r), Object.defineProperty(r, \"default\", {\n        enumerable: !0,\n        value: e\n      }), 2 & t && \"string\" != typeof e) for (var o in e) n.d(r, o, function (t) {\n        return e[t];\n      }.bind(null, o));\n      return r;\n    }, n.n = function (e) {\n      var t = e && e.__esModule ? function () {\n        return e.default;\n      } : function () {\n        return e;\n      };\n      return n.d(t, \"a\", t), t;\n    }, n.o = function (e, t) {\n      return Object.prototype.hasOwnProperty.call(e, t);\n    }, n.p = \"\", n(n.s = 0);\n  }([function (e, t, n) {\n    \"use strict\";\n\n    n.r(t), t.default = function (e, t) {\n      let n = Object.create(null);\n\n      for (let r = 0; r < e.length; r++) {\n        if (void 0 !== n[t - e[r]]) return [n[t - e[r]], r];\n        n[e[r]] = r;\n      }\n    };\n  }]).default;\n});"
+        },
+        {
+          "id": 7,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "name": "./src/search/index.js + 2 modules",
+          "index": 3,
+          "index2": 13,
+          "size": 4967,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+            "test-logo_d850defa.png"
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:/DevWorkspace/webpack-mine/myproject/src/search/index.js",
+              "loc": "search"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/vincent-two-sum/index.js (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with ./src/common/util.js",
+            "ModuleConcatenation bailout: Cannot concat with external \"React\" (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with external \"ReactDOM\" (<- Module is not an ECMAScript module)"
+          ],
+          "depth": 0,
+          "modules": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "name": "./src/search/index.js",
+              "index": 3,
+              "index2": 13,
+              "size": 4750,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:/DevWorkspace/webpack-mine/myproject/src/search/index.js",
+                  "loc": "search"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is an entry point"
+              ],
+              "depth": 0,
+              "source": "function _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nimport React from 'react';\nimport ReactDom from 'react-dom';\nimport './index.css';\nimport './lesssearch.less';\nimport vincentTwoSum from 'vincent-two-sum';\nimport logo from '../images/test-logo.png';\nimport CommonIndex from '../common/util';\nimport { treeShakingA } from '../common/tree-shaking';\n\nvar Search = /*#__PURE__*/function (_React$Component) {\n  _inherits(Search, _React$Component);\n\n  var _super = _createSuper(Search);\n\n  function Search(props) {\n    var _this;\n\n    _classCallCheck(this, Search);\n\n    _this = _super.call(this, props);\n    _this.state = {\n      Text: null\n    };\n    return _this;\n  }\n\n  _createClass(Search, [{\n    key: \"loadComponent\",\n    value: function loadComponent() {\n      var _this2 = this;\n\n      import('../common/dynamic-import').then(function (Text) {\n        _this2.setState({\n          Text: Text[\"default\"]\n        });\n      });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var Text = this.state.Text;\n      var arr = vincentTwoSum([1, 2, 3, 4, 5], 9);\n      return (\n        /*#__PURE__*/\n        // eslint-disable-next-line react/jsx-filename-extension\n        React.createElement(\"div\", {\n          className: \"search-font\"\n        }, \"Search Text HotTest\", /*#__PURE__*/React.createElement(\"br\", null), Text ? /*#__PURE__*/React.createElement(Text, null) : null, \"+ \", /*#__PURE__*/React.createElement(\"img\", {\n          src: logo,\n          onClick: this.loadComponent.bind(this)\n        }), /*#__PURE__*/React.createElement(\"br\", null), CommonIndex, /*#__PURE__*/React.createElement(\"br\", null), treeShakingA(), /*#__PURE__*/React.createElement(\"br\", null), \"This is vincent two sum answer\", arr)\n      );\n    }\n  }]);\n\n  return Search;\n}(React.Component);\n\nReactDom.render( /*#__PURE__*/React.createElement(Search, null), document.getElementById('root'));"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\file-loader\\dist\\cjs.js??ref--7-0!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\images\\test-logo.png",
+              "name": "./src/images/test-logo.png",
+              "index": 12,
+              "index2": 11,
+              "size": 66,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "issuerId": null,
+              "issuerName": "./src/search/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+                  "name": "./src/search/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [
+                "test-logo_d850defa.png"
+              ],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+                  "module": "./src/search/index.js",
+                  "moduleName": "./src/search/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../images/test-logo.png",
+                  "loc": "28:0-43"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+                  "module": "./src/search/index.js",
+                  "moduleName": "./src/search/index.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "../images/test-logo.png",
+                  "loc": "71:15-19"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "export default __webpack_public_path__ + \"test-logo_d850defa.png\";"
+            },
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\common\\tree-shaking.js",
+              "name": "./src/common/tree-shaking.js",
+              "index": 13,
+              "index2": 12,
+              "size": 121,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "issuerId": null,
+              "issuerName": "./src/search/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+                  "name": "./src/search/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+                  "module": "./src/search/index.js",
+                  "moduleName": "./src/search/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "../common/tree-shaking",
+                  "loc": "30:0-54"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+                  "module": "./src/search/index.js",
+                  "moduleName": "./src/search/index.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "../common/tree-shaking",
+                  "loc": "73:117-129"
+                }
+              ],
+              "usedExports": [
+                "treeShakingA"
+              ],
+              "providedExports": [
+                "treeShakingA",
+                "treeShakingB"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "export function treeShakingA() {\n  return 'treeshaking-a';\n}\nexport function treeShakingB() {\n  return 'treeshaking-b';\n}"
+            }
+          ],
+          "filteredModules": 0
+        },
+        {
+          "id": "",
+          "identifier": "css D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css 0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./src/search/index.css",
+          "index": 7,
+          "index2": 5,
+          "size": 117,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+          "issuerId": 4,
+          "issuerName": "./src/search/index.css",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            },
+            {
+              "id": 4,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+              "name": "./src/search/index.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+              "module": "./src/search/index.css",
+              "moduleName": "./src/search/index.css"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "id": "",
+          "identifier": "css D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less 0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+          "index": 9,
+          "index2": 7,
+          "size": 163,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+          "issuerId": 5,
+          "issuerName": "./src/search/lesssearch.less",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            },
+            {
+              "id": 5,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+              "name": "./src/search/lesssearch.less"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+              "module": "./src/search/lesssearch.less",
+              "moduleName": "./src/search/lesssearch.less"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "search",
+          "request": "D:/DevWorkspace/webpack-mine/myproject/src/search/index.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 254,
+      "names": [],
+      "files": [
+        "3_4c402171.js"
+      ],
+      "hash": "4c40217193f3d113c212",
+      "siblings": [],
+      "parents": [
+        0,
+        2
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 9,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\common\\dynamic-import.js",
+          "name": "./src/common/dynamic-import.js",
+          "index": 14,
+          "index2": 14,
+          "size": 254,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            3
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "module": "./src/search/index.js",
+              "moduleName": "./src/search/index.js",
+              "type": "import()",
+              "userRequest": "../common/dynamic-import",
+              "loc": "54:6-40"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/search/index.js (referenced with import())"
+          ],
+          "depth": 1,
+          "source": "// eslint-disable-next-line import/no-extraneous-dependencies\nimport React from 'react'; // eslint-disable-next-line react/jsx-filename-extension\n\nexport default (function () {\n  return /*#__PURE__*/React.createElement(\"div\", null, \"dynamic-import\");\n});"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": null,
+          "module": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "moduleName": "./src/search/index.js",
+          "loc": "54:6-40",
+          "request": "../common/dynamic-import",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "external \"React\"",
+      "name": "external \"React\"",
+      "index": 4,
+      "index2": 3,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "23:0-26"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "68:8-13"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "70:47-52"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "70:100-105"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "70:159-164"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "73:25-30"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "73:84-89"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "73:146-151"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "79:2-7"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "81:30-35"
+        },
+        {
+          "moduleId": 9,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\common\\dynamic-import.js",
+          "module": "./src/common/dynamic-import.js",
+          "moduleName": "./src/common/dynamic-import.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "2:0-26"
+        },
+        {
+          "moduleId": 9,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\common\\dynamic-import.js",
+          "module": "./src/common/dynamic-import.js",
+          "moduleName": "./src/common/dynamic-import.js",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "5:22-27"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": 1,
+      "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\common\\util.js",
+      "name": "./src/common/util.js",
+      "index": 2,
+      "index2": 1,
+      "size": 29,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "../common/util",
+          "loc": "29:0-41"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "../common/util",
+          "loc": "73:58-69"
+        },
+        {
+          "moduleId": 8,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js 00a478192ca966546377930e191387f5",
+          "module": "./src/index/index.js + 1 modules",
+          "moduleName": "./src/index/index.js + 1 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "../common/util",
+          "loc": "2:0-41"
+        },
+        {
+          "moduleId": 8,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js 00a478192ca966546377930e191387f5",
+          "module": "./src/index/index.js + 1 modules",
+          "moduleName": "./src/index/index.js + 1 modules",
+          "type": "harmony import specifier",
+          "userRequest": "../common/util",
+          "loc": "5:15-26"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "export default 'common-util';"
+    },
+    {
+      "id": 2,
+      "identifier": "external \"ReactDOM\"",
+      "name": "external \"ReactDOM\"",
+      "index": 5,
+      "index2": 4,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react-dom",
+          "loc": "24:0-33"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react-dom",
+          "loc": "81:0-8"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "id": 3,
+      "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\vincent-two-sum\\index.js",
+      "name": "./node_modules/vincent-two-sum/index.js",
+      "index": 10,
+      "index2": 10,
+      "size": 167,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "vincent-two-sum",
+          "loc": "27:0-44"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "vincent-two-sum",
+          "loc": "64:16-29"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1,
+      "source": "if (process.env.NODE_ENV === 'production') {\n  module.exports = require('./dist/vinz-two-sum.min.js');\n} else {\n  module.exports = require('./dist/vinz-two-sum.js');\n}"
+    },
+    {
+      "id": 4,
+      "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+      "name": "./src/search/index.css",
+      "index": 6,
+      "index2": 6,
+      "size": 39,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./index.css",
+          "loc": "25:0-21"
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1,
+      "source": "// extracted by mini-css-extract-plugin"
+    },
+    {
+      "id": 5,
+      "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+      "name": "./src/search/lesssearch.less",
+      "index": 8,
+      "index2": 8,
+      "size": 39,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+        "Textar-Min_a80903b9.ttf"
+      ],
+      "reasons": [
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+          "module": "./src/search/index.js + 2 modules",
+          "moduleName": "./src/search/index.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./lesssearch.less",
+          "loc": "26:0-27"
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1,
+      "source": "// extracted by mini-css-extract-plugin"
+    },
+    {
+      "id": 6,
+      "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\vincent-two-sum\\dist\\vinz-two-sum.min.js",
+      "name": "./node_modules/vincent-two-sum/dist/vinz-two-sum.min.js",
+      "index": 11,
+      "index2": 9,
+      "size": 1923,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\vincent-two-sum\\index.js",
+      "issuerId": 3,
+      "issuerName": "./node_modules/vincent-two-sum/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 3,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\vincent-two-sum\\index.js",
+          "name": "./node_modules/vincent-two-sum/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\vincent-two-sum\\index.js",
+          "module": "./node_modules/vincent-two-sum/index.js",
+          "moduleName": "./node_modules/vincent-two-sum/index.js",
+          "type": "cjs require",
+          "userRequest": "./dist/vinz-two-sum.min.js",
+          "loc": "2:19-56"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2,
+      "source": "!function (e, t) {\n  \"object\" == typeof exports && \"object\" == typeof module ? module.exports = t() : \"function\" == typeof define && define.amd ? define([], t) : \"object\" == typeof exports ? exports.vinzTwoSum = t() : e.vinzTwoSum = t();\n}(window, function () {\n  return function (e) {\n    var t = {};\n\n    function n(r) {\n      if (t[r]) return t[r].exports;\n      var o = t[r] = {\n        i: r,\n        l: !1,\n        exports: {}\n      };\n      return e[r].call(o.exports, o, o.exports, n), o.l = !0, o.exports;\n    }\n\n    return n.m = e, n.c = t, n.d = function (e, t, r) {\n      n.o(e, t) || Object.defineProperty(e, t, {\n        enumerable: !0,\n        get: r\n      });\n    }, n.r = function (e) {\n      \"undefined\" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, {\n        value: \"Module\"\n      }), Object.defineProperty(e, \"__esModule\", {\n        value: !0\n      });\n    }, n.t = function (e, t) {\n      if (1 & t && (e = n(e)), 8 & t) return e;\n      if (4 & t && \"object\" == typeof e && e && e.__esModule) return e;\n      var r = Object.create(null);\n      if (n.r(r), Object.defineProperty(r, \"default\", {\n        enumerable: !0,\n        value: e\n      }), 2 & t && \"string\" != typeof e) for (var o in e) n.d(r, o, function (t) {\n        return e[t];\n      }.bind(null, o));\n      return r;\n    }, n.n = function (e) {\n      var t = e && e.__esModule ? function () {\n        return e.default;\n      } : function () {\n        return e;\n      };\n      return n.d(t, \"a\", t), t;\n    }, n.o = function (e, t) {\n      return Object.prototype.hasOwnProperty.call(e, t);\n    }, n.p = \"\", n(n.s = 0);\n  }([function (e, t, n) {\n    \"use strict\";\n\n    n.r(t), t.default = function (e, t) {\n      let n = Object.create(null);\n\n      for (let r = 0; r < e.length; r++) {\n        if (void 0 !== n[t - e[r]]) return [n[t - e[r]], r];\n        n[e[r]] = r;\n      }\n    };\n  }]).default;\n});"
+    },
+    {
+      "id": 7,
+      "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js c14af2c7f00303a060365944f144b3e3",
+      "name": "./src/search/index.js + 2 modules",
+      "index": 3,
+      "index2": 13,
+      "size": 4967,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+        "test-logo_d850defa.png"
+      ],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "D:/DevWorkspace/webpack-mine/myproject/src/search/index.js",
+          "loc": "search"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/vincent-two-sum/index.js (<- Module is not an ECMAScript module)",
+        "ModuleConcatenation bailout: Cannot concat with ./src/common/util.js",
+        "ModuleConcatenation bailout: Cannot concat with external \"React\" (<- Module is not an ECMAScript module)",
+        "ModuleConcatenation bailout: Cannot concat with external \"ReactDOM\" (<- Module is not an ECMAScript module)"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "name": "./src/search/index.js",
+          "index": 3,
+          "index2": 13,
+          "size": 4750,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:/DevWorkspace/webpack-mine/myproject/src/search/index.js",
+              "loc": "search"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0,
+          "source": "function _typeof(obj) { \"@babel/helpers - typeof\"; if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function\"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }\n\nfunction _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }\n\nfunction _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }\n\nfunction _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === \"object\" || typeof call === \"function\")) { return call; } return _assertThisInitialized(self); }\n\nfunction _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return self; }\n\nfunction _isNativeReflectConstruct() { if (typeof Reflect === \"undefined\" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === \"function\") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }\n\nfunction _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }\n\nimport React from 'react';\nimport ReactDom from 'react-dom';\nimport './index.css';\nimport './lesssearch.less';\nimport vincentTwoSum from 'vincent-two-sum';\nimport logo from '../images/test-logo.png';\nimport CommonIndex from '../common/util';\nimport { treeShakingA } from '../common/tree-shaking';\n\nvar Search = /*#__PURE__*/function (_React$Component) {\n  _inherits(Search, _React$Component);\n\n  var _super = _createSuper(Search);\n\n  function Search(props) {\n    var _this;\n\n    _classCallCheck(this, Search);\n\n    _this = _super.call(this, props);\n    _this.state = {\n      Text: null\n    };\n    return _this;\n  }\n\n  _createClass(Search, [{\n    key: \"loadComponent\",\n    value: function loadComponent() {\n      var _this2 = this;\n\n      import('../common/dynamic-import').then(function (Text) {\n        _this2.setState({\n          Text: Text[\"default\"]\n        });\n      });\n    }\n  }, {\n    key: \"render\",\n    value: function render() {\n      var Text = this.state.Text;\n      var arr = vincentTwoSum([1, 2, 3, 4, 5], 9);\n      return (\n        /*#__PURE__*/\n        // eslint-disable-next-line react/jsx-filename-extension\n        React.createElement(\"div\", {\n          className: \"search-font\"\n        }, \"Search Text HotTest\", /*#__PURE__*/React.createElement(\"br\", null), Text ? /*#__PURE__*/React.createElement(Text, null) : null, \"+ \", /*#__PURE__*/React.createElement(\"img\", {\n          src: logo,\n          onClick: this.loadComponent.bind(this)\n        }), /*#__PURE__*/React.createElement(\"br\", null), CommonIndex, /*#__PURE__*/React.createElement(\"br\", null), treeShakingA(), /*#__PURE__*/React.createElement(\"br\", null), \"This is vincent two sum answer\", arr)\n      );\n    }\n  }]);\n\n  return Search;\n}(React.Component);\n\nReactDom.render( /*#__PURE__*/React.createElement(Search, null), document.getElementById('root'));"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\file-loader\\dist\\cjs.js??ref--7-0!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\images\\test-logo.png",
+          "name": "./src/images/test-logo.png",
+          "index": 12,
+          "index2": 11,
+          "size": 66,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+            "test-logo_d850defa.png"
+          ],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "module": "./src/search/index.js",
+              "moduleName": "./src/search/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../images/test-logo.png",
+              "loc": "28:0-43"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "module": "./src/search/index.js",
+              "moduleName": "./src/search/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "../images/test-logo.png",
+              "loc": "71:15-19"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "export default __webpack_public_path__ + \"test-logo_d850defa.png\";"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\common\\tree-shaking.js",
+          "name": "./src/common/tree-shaking.js",
+          "index": 13,
+          "index2": 12,
+          "size": 121,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/search/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "name": "./src/search/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "module": "./src/search/index.js",
+              "moduleName": "./src/search/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../common/tree-shaking",
+              "loc": "30:0-54"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+              "module": "./src/search/index.js",
+              "moduleName": "./src/search/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "../common/tree-shaking",
+              "loc": "73:117-129"
+            }
+          ],
+          "usedExports": [
+            "treeShakingA"
+          ],
+          "providedExports": [
+            "treeShakingA",
+            "treeShakingB"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "export function treeShakingA() {\n  return 'treeshaking-a';\n}\nexport function treeShakingB() {\n  return 'treeshaking-b';\n}"
+        }
+      ],
+      "filteredModules": 0
+    },
+    {
+      "id": 8,
+      "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js 00a478192ca966546377930e191387f5",
+      "name": "./src/index/index.js + 1 modules",
+      "index": 0,
+      "index2": 2,
+      "size": 200,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "D:/DevWorkspace/webpack-mine/myproject/src/index/index.js",
+          "loc": "index"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./src/common/util.js"
+      ],
+      "depth": 0,
+      "modules": [
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js",
+          "name": "./src/index/index.js",
+          "index": 0,
+          "index2": 2,
+          "size": 164,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:/DevWorkspace/webpack-mine/myproject/src/index/index.js",
+              "loc": "index"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0,
+          "source": "import helloWorld from '../helloworld';\nimport CommonIndex from '../common/util';\ndocument.write(helloWorld);\ndocument.write('<br />');\ndocument.write(CommonIndex);"
+        },
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\helloworld.js",
+          "name": "./src/helloworld.js",
+          "index": 1,
+          "index2": 0,
+          "size": 31,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js",
+          "issuerId": null,
+          "issuerName": "./src/index/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js",
+              "name": "./src/index/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js",
+              "module": "./src/index/index.js",
+              "moduleName": "./src/index/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../helloworld",
+              "loc": "1:0-39"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.js",
+              "module": "./src/index/index.js",
+              "moduleName": "./src/index/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "../helloworld",
+              "loc": "3:15-25"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "export default 'helloworld123';"
+        }
+      ],
+      "filteredModules": 0
+    },
+    {
+      "id": 9,
+      "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\common\\dynamic-import.js",
+      "name": "./src/common/dynamic-import.js",
+      "index": 14,
+      "index2": 14,
+      "size": 254,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        3
+      ],
+      "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+      "issuerId": null,
+      "issuerName": "./src/search/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "module": "./src/search/index.js",
+          "moduleName": "./src/search/index.js",
+          "type": "import()",
+          "userRequest": "../common/dynamic-import",
+          "loc": "54:6-40"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/search/index.js (referenced with import())"
+      ],
+      "depth": 1,
+      "source": "// eslint-disable-next-line import/no-extraneous-dependencies\nimport React from 'react'; // eslint-disable-next-line react/jsx-filename-extension\n\nexport default (function () {\n  return /*#__PURE__*/React.createElement(\"div\", null, \"dynamic-import\");\n});"
+    },
+    {
+      "id": "",
+      "identifier": "css D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less 0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+      "index": 9,
+      "index2": 7,
+      "size": 163,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+      "issuerId": 5,
+      "issuerName": "./src/search/lesssearch.less",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+          "name": "./src/search/lesssearch.less"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+          "module": "./src/search/lesssearch.less",
+          "moduleName": "./src/search/lesssearch.less"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "id": "",
+      "identifier": "css D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css 0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./src/search/index.css",
+      "index": 7,
+      "index2": 5,
+      "size": 117,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+      "issuerId": 4,
+      "issuerName": "./src/search/index.css",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.js",
+          "name": "./src/search/index.js"
+        },
+        {
+          "id": 4,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+          "name": "./src/search/index.css"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+          "module": "./src/search/index.css",
+          "moduleName": "./src/search/index.css"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\DevWorkspace\\webpack-mine\\myproject\\dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0",
+        "HtmlWebpackPlugin_1": "__child-HtmlWebpackPlugin_1"
+      },
+      "assets": [
+        {
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 4300,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "info": {},
+          "emitted": false
+        },
+        {
+          "name": "__child-HtmlWebpackPlugin_1",
+          "size": 8373,
+          "chunks": [
+            1
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_1"
+          ],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        },
+        "HtmlWebpackPlugin_1": {
+          "chunks": [
+            1
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_1"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        },
+        "HtmlWebpackPlugin_1": {
+          "chunks": [
+            1
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_1"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 623,
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "hash": "56f455f33c77f7dcb9da",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index/index.html",
+              "index": 0,
+              "index2": 0,
+              "size": 623,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.html",
+                  "loc": "HtmlWebpackPlugin_0"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"D:\\\\DevWorkspace\\\\webpack-mine\\\\myproject\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n<head>\\r\\n  <meta charset=\"UTF-8\">\\r\\n  <title>index</title>\\r\\n</head>\\r\\n<body>\\r\\n  <div id=\"root\"></div>\\r\\n  <script type=\"text/javascript\" src=\"https://11.url.cn/now/lib/16.2.0/react.min.js\"></script>\\r\\n  <script type=\"text/javascript\" src=\"https://11.url.cn/now/lib/16.2.0/react-dom.min.js\"></script>\\r\\n</body>\\r\\n</html>\\r\\n';\nreturn __p\n})();}}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.html",
+              "reasons": []
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 4625,
+          "names": [
+            "HtmlWebpackPlugin_1"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_1"
+          ],
+          "hash": "95caf631873df6999124",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 1,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+              "index": 1,
+              "index2": 3,
+              "size": 867,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                1
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+                  "loc": "HtmlWebpackPlugin_1"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"D:\\\\DevWorkspace\\\\webpack-mine\\\\myproject\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n<head>\\r\\n  <meta charset=\"UTF-8\">\\r\\n  <title>Search</title>\\r\\n  <script>\\r\\n    ' +\n((__t = ( require('raw-loader!babel-loader!../../node_modules/lib-flexible/flexible.js') )) == null ? '' : __t) +\n'\\r\\n  </script>\\r\\n</head>\\r\\n<body>\\r\\n  <div id=\"root\"></div>\\r\\n  ' +\n((__t = (require('raw-loader!./fragment.html') )) == null ? '' : __t) +\n'\\r\\n  <script type=\"text/javascript\" src=\"https://11.url.cn/now/lib/16.2.0/react.min.js\"></script>\\r\\n  <script type=\"text/javascript\" src=\"https://11.url.cn/now/lib/16.2.0/react-dom.min.js\"></script>\\r\\n</body>\\r\\n</html>\\r\\n\\r\\n';\nreturn __p\n})();}}"
+            },
+            {
+              "id": 2,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\raw-loader\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\lib-flexible\\flexible.js",
+              "name": "./node_modules/raw-loader!./node_modules/babel-loader/lib!./node_modules/lib-flexible/flexible.js",
+              "index": 2,
+              "index2": 1,
+              "size": 3573,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                1
+              ],
+              "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+              "issuerId": 1,
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+              "issuerPath": [
+                {
+                  "id": 1,
+                  "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+                  "type": "cjs require",
+                  "userRequest": "raw-loader!babel-loader!../../node_modules/lib-flexible/flexible.js",
+                  "loc": "4:10-88"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "module.exports = \";\\n\\n(function (win, lib) {\\n  var doc = win.document;\\n  var docEl = doc.documentElement;\\n  var metaEl = doc.querySelector('meta[name=\\\"viewport\\\"]');\\n  var flexibleEl = doc.querySelector('meta[name=\\\"flexible\\\"]');\\n  var dpr = 0;\\n  var scale = 0;\\n  var tid;\\n  var flexible = lib.flexible || (lib.flexible = {});\\n\\n  if (metaEl) {\\n    console.warn('将根据已有的meta标签来设置缩放比例');\\n    var match = metaEl.getAttribute('content').match(/initial\\\\-scale=([\\\\d\\\\.]+)/);\\n\\n    if (match) {\\n      scale = parseFloat(match[1]);\\n      dpr = parseInt(1 / scale);\\n    }\\n  } else if (flexibleEl) {\\n    var content = flexibleEl.getAttribute('content');\\n\\n    if (content) {\\n      var initialDpr = content.match(/initial\\\\-dpr=([\\\\d\\\\.]+)/);\\n      var maximumDpr = content.match(/maximum\\\\-dpr=([\\\\d\\\\.]+)/);\\n\\n      if (initialDpr) {\\n        dpr = parseFloat(initialDpr[1]);\\n        scale = parseFloat((1 / dpr).toFixed(2));\\n      }\\n\\n      if (maximumDpr) {\\n        dpr = parseFloat(maximumDpr[1]);\\n        scale = parseFloat((1 / dpr).toFixed(2));\\n      }\\n    }\\n  }\\n\\n  if (!dpr && !scale) {\\n    var isAndroid = win.navigator.appVersion.match(/android/gi);\\n    var isIPhone = win.navigator.appVersion.match(/iphone/gi);\\n    var devicePixelRatio = win.devicePixelRatio;\\n\\n    if (isIPhone) {\\n      // iOS下，对于2和3的屏，用2倍的方案，其余的用1倍方案\\n      if (devicePixelRatio >= 3 && (!dpr || dpr >= 3)) {\\n        dpr = 3;\\n      } else if (devicePixelRatio >= 2 && (!dpr || dpr >= 2)) {\\n        dpr = 2;\\n      } else {\\n        dpr = 1;\\n      }\\n    } else {\\n      // 其他设备下，仍旧使用1倍的方案\\n      dpr = 1;\\n    }\\n\\n    scale = 1 / dpr;\\n  }\\n\\n  docEl.setAttribute('data-dpr', dpr);\\n\\n  if (!metaEl) {\\n    metaEl = doc.createElement('meta');\\n    metaEl.setAttribute('name', 'viewport');\\n    metaEl.setAttribute('content', 'initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');\\n\\n    if (docEl.firstElementChild) {\\n      docEl.firstElementChild.appendChild(metaEl);\\n    } else {\\n      var wrap = doc.createElement('div');\\n      wrap.appendChild(metaEl);\\n      doc.write(wrap.innerHTML);\\n    }\\n  }\\n\\n  function refreshRem() {\\n    var width = docEl.getBoundingClientRect().width;\\n\\n    if (width / dpr > 540) {\\n      width = 540 * dpr;\\n    }\\n\\n    var rem = width / 10;\\n    docEl.style.fontSize = rem + 'px';\\n    flexible.rem = win.rem = rem;\\n  }\\n\\n  win.addEventListener('resize', function () {\\n    clearTimeout(tid);\\n    tid = setTimeout(refreshRem, 300);\\n  }, false);\\n  win.addEventListener('pageshow', function (e) {\\n    if (e.persisted) {\\n      clearTimeout(tid);\\n      tid = setTimeout(refreshRem, 300);\\n    }\\n  }, false);\\n\\n  if (doc.readyState === 'complete') {\\n    doc.body.style.fontSize = 12 * dpr + 'px';\\n  } else {\\n    doc.addEventListener('DOMContentLoaded', function (e) {\\n      doc.body.style.fontSize = 12 * dpr + 'px';\\n    }, false);\\n  }\\n\\n  refreshRem();\\n  flexible.dpr = win.dpr = dpr;\\n  flexible.refreshRem = refreshRem;\\n\\n  flexible.rem2px = function (d) {\\n    var val = parseFloat(d) * this.rem;\\n\\n    if (typeof d === 'string' && d.match(/rem$/)) {\\n      val += 'px';\\n    }\\n\\n    return val;\\n  };\\n\\n  flexible.px2rem = function (d) {\\n    var val = parseFloat(d) / this.rem;\\n\\n    if (typeof d === 'string' && d.match(/px$/)) {\\n      val += 'rem';\\n    }\\n\\n    return val;\\n  };\\n})(window, window['lib'] || (window['lib'] = {}));\""
+            },
+            {
+              "id": 3,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\raw-loader\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\fragment.html",
+              "name": "./node_modules/raw-loader!./src/search/fragment.html",
+              "index": 3,
+              "index2": 2,
+              "size": 185,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                1
+              ],
+              "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+              "issuerId": 1,
+              "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+              "issuerPath": [
+                {
+                  "id": 1,
+                  "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+                  "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 1,
+                  "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+                  "type": "cjs require",
+                  "userRequest": "raw-loader!./fragment.html",
+                  "loc": "6:9-46"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "module.exports = \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n  <meta charset=\\\"UTF-8\\\">\\r\\n  <title>Title</title>\\r\\n</head>\\r\\n<body>\\r\\n    FRAGMENT\\r\\n</body>\\r\\n</html>\\r\\n\""
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_1",
+              "request": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index/index.html",
+          "index": 0,
+          "index2": 0,
+          "size": 623,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\index\\index.html",
+              "loc": "HtmlWebpackPlugin_0"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"D:\\\\DevWorkspace\\\\webpack-mine\\\\myproject\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n<head>\\r\\n  <meta charset=\"UTF-8\">\\r\\n  <title>index</title>\\r\\n</head>\\r\\n<body>\\r\\n  <div id=\"root\"></div>\\r\\n  <script type=\"text/javascript\" src=\"https://11.url.cn/now/lib/16.2.0/react.min.js\"></script>\\r\\n  <script type=\"text/javascript\" src=\"https://11.url.cn/now/lib/16.2.0/react-dom.min.js\"></script>\\r\\n</body>\\r\\n</html>\\r\\n';\nreturn __p\n})();}}"
+        },
+        {
+          "id": 1,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+          "index": 1,
+          "index2": 3,
+          "size": 867,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+              "loc": "HtmlWebpackPlugin_1"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"D:\\\\DevWorkspace\\\\webpack-mine\\\\myproject\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n<head>\\r\\n  <meta charset=\"UTF-8\">\\r\\n  <title>Search</title>\\r\\n  <script>\\r\\n    ' +\n((__t = ( require('raw-loader!babel-loader!../../node_modules/lib-flexible/flexible.js') )) == null ? '' : __t) +\n'\\r\\n  </script>\\r\\n</head>\\r\\n<body>\\r\\n  <div id=\"root\"></div>\\r\\n  ' +\n((__t = (require('raw-loader!./fragment.html') )) == null ? '' : __t) +\n'\\r\\n  <script type=\"text/javascript\" src=\"https://11.url.cn/now/lib/16.2.0/react.min.js\"></script>\\r\\n  <script type=\"text/javascript\" src=\"https://11.url.cn/now/lib/16.2.0/react-dom.min.js\"></script>\\r\\n</body>\\r\\n</html>\\r\\n\\r\\n';\nreturn __p\n})();}}"
+        },
+        {
+          "id": 2,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\raw-loader\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\lib-flexible\\flexible.js",
+          "name": "./node_modules/raw-loader!./node_modules/babel-loader/lib!./node_modules/lib-flexible/flexible.js",
+          "index": 2,
+          "index2": 1,
+          "size": 3573,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+          "issuerId": 1,
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+              "type": "cjs require",
+              "userRequest": "raw-loader!babel-loader!../../node_modules/lib-flexible/flexible.js",
+              "loc": "4:10-88"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "module.exports = \";\\n\\n(function (win, lib) {\\n  var doc = win.document;\\n  var docEl = doc.documentElement;\\n  var metaEl = doc.querySelector('meta[name=\\\"viewport\\\"]');\\n  var flexibleEl = doc.querySelector('meta[name=\\\"flexible\\\"]');\\n  var dpr = 0;\\n  var scale = 0;\\n  var tid;\\n  var flexible = lib.flexible || (lib.flexible = {});\\n\\n  if (metaEl) {\\n    console.warn('将根据已有的meta标签来设置缩放比例');\\n    var match = metaEl.getAttribute('content').match(/initial\\\\-scale=([\\\\d\\\\.]+)/);\\n\\n    if (match) {\\n      scale = parseFloat(match[1]);\\n      dpr = parseInt(1 / scale);\\n    }\\n  } else if (flexibleEl) {\\n    var content = flexibleEl.getAttribute('content');\\n\\n    if (content) {\\n      var initialDpr = content.match(/initial\\\\-dpr=([\\\\d\\\\.]+)/);\\n      var maximumDpr = content.match(/maximum\\\\-dpr=([\\\\d\\\\.]+)/);\\n\\n      if (initialDpr) {\\n        dpr = parseFloat(initialDpr[1]);\\n        scale = parseFloat((1 / dpr).toFixed(2));\\n      }\\n\\n      if (maximumDpr) {\\n        dpr = parseFloat(maximumDpr[1]);\\n        scale = parseFloat((1 / dpr).toFixed(2));\\n      }\\n    }\\n  }\\n\\n  if (!dpr && !scale) {\\n    var isAndroid = win.navigator.appVersion.match(/android/gi);\\n    var isIPhone = win.navigator.appVersion.match(/iphone/gi);\\n    var devicePixelRatio = win.devicePixelRatio;\\n\\n    if (isIPhone) {\\n      // iOS下，对于2和3的屏，用2倍的方案，其余的用1倍方案\\n      if (devicePixelRatio >= 3 && (!dpr || dpr >= 3)) {\\n        dpr = 3;\\n      } else if (devicePixelRatio >= 2 && (!dpr || dpr >= 2)) {\\n        dpr = 2;\\n      } else {\\n        dpr = 1;\\n      }\\n    } else {\\n      // 其他设备下，仍旧使用1倍的方案\\n      dpr = 1;\\n    }\\n\\n    scale = 1 / dpr;\\n  }\\n\\n  docEl.setAttribute('data-dpr', dpr);\\n\\n  if (!metaEl) {\\n    metaEl = doc.createElement('meta');\\n    metaEl.setAttribute('name', 'viewport');\\n    metaEl.setAttribute('content', 'initial-scale=' + scale + ', maximum-scale=' + scale + ', minimum-scale=' + scale + ', user-scalable=no');\\n\\n    if (docEl.firstElementChild) {\\n      docEl.firstElementChild.appendChild(metaEl);\\n    } else {\\n      var wrap = doc.createElement('div');\\n      wrap.appendChild(metaEl);\\n      doc.write(wrap.innerHTML);\\n    }\\n  }\\n\\n  function refreshRem() {\\n    var width = docEl.getBoundingClientRect().width;\\n\\n    if (width / dpr > 540) {\\n      width = 540 * dpr;\\n    }\\n\\n    var rem = width / 10;\\n    docEl.style.fontSize = rem + 'px';\\n    flexible.rem = win.rem = rem;\\n  }\\n\\n  win.addEventListener('resize', function () {\\n    clearTimeout(tid);\\n    tid = setTimeout(refreshRem, 300);\\n  }, false);\\n  win.addEventListener('pageshow', function (e) {\\n    if (e.persisted) {\\n      clearTimeout(tid);\\n      tid = setTimeout(refreshRem, 300);\\n    }\\n  }, false);\\n\\n  if (doc.readyState === 'complete') {\\n    doc.body.style.fontSize = 12 * dpr + 'px';\\n  } else {\\n    doc.addEventListener('DOMContentLoaded', function (e) {\\n      doc.body.style.fontSize = 12 * dpr + 'px';\\n    }, false);\\n  }\\n\\n  refreshRem();\\n  flexible.dpr = win.dpr = dpr;\\n  flexible.refreshRem = refreshRem;\\n\\n  flexible.rem2px = function (d) {\\n    var val = parseFloat(d) * this.rem;\\n\\n    if (typeof d === 'string' && d.match(/rem$/)) {\\n      val += 'px';\\n    }\\n\\n    return val;\\n  };\\n\\n  flexible.px2rem = function (d) {\\n    var val = parseFloat(d) / this.rem;\\n\\n    if (typeof d === 'string' && d.match(/px$/)) {\\n      val += 'rem';\\n    }\\n\\n    return val;\\n  };\\n})(window, window['lib'] || (window['lib'] = {}));\""
+        },
+        {
+          "id": 3,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\raw-loader\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\fragment.html",
+          "name": "./node_modules/raw-loader!./src/search/fragment.html",
+          "index": 3,
+          "index2": 2,
+          "size": 185,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+          "issuerId": 1,
+          "issuerName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+          "issuerPath": [
+            {
+              "id": 1,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/search/index.html",
+              "type": "cjs require",
+              "userRequest": "raw-loader!./fragment.html",
+              "loc": "6:9-46"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "module.exports = \"<!DOCTYPE html>\\r\\n<html lang=\\\"en\\\">\\r\\n<head>\\r\\n  <meta charset=\\\"UTF-8\\\">\\r\\n  <title>Title</title>\\r\\n</head>\\r\\n<body>\\r\\n    FRAGMENT\\r\\n</body>\\r\\n</html>\\r\\n\""
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "HtmlWebpackCompiler"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\DevWorkspace\\webpack-mine\\myproject\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 4118,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "76f9d5bc8bb5068df724",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+              "index": 0,
+              "index2": 3,
+              "size": 704,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = require(\"../font/Textar-Min.ttf\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\nexports.push([module.id, \"@font-face {\\n  font-family: 'Textar-Min';\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format(truetype);\\n}\\n.search-font {\\n  font-family: Textar-Min;\\n  font-weight: bold;\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+            },
+            {
+              "id": 1,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2517,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+              "issuerId": 0,
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+              "issuerPath": [
+                {
+                  "id": 0,
+                  "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+                  "type": "cjs require",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:34-94"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "\"use strict\";\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\n\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+            },
+            {
+              "id": 2,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+              "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
+              "index": 2,
+              "index2": 1,
+              "size": 830,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+              "issuerId": 0,
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+              "issuerPath": [
+                {
+                  "id": 0,
+                  "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+                  "type": "cjs require",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/getUrl.js",
+                  "loc": "3:38-101"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "\"use strict\";\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n\n\n  url = url && url.__esModule ? url.default : url;\n\n  if (typeof url !== 'string') {\n    return url;\n  } // If url is already wrapped in quotes, remove them\n\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    // eslint-disable-next-line no-param-reassign\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, '\\\\n'), \"\\\"\");\n  }\n\n  return url;\n};"
+            },
+            {
+              "id": 3,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\file-loader\\dist\\cjs.js??ref--8-0!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\font\\Textar-Min.ttf",
+              "name": "./src/font/Textar-Min.ttf",
+              "index": 3,
+              "index2": 2,
+              "size": 67,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+              "issuerId": 0,
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+              "issuerPath": [
+                {
+                  "id": 0,
+                  "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+                  "type": "cjs require",
+                  "userRequest": "../font/Textar-Min.ttf",
+                  "loc": "4:36-69"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less (referenced with cjs require)"
+              ],
+              "depth": 1,
+              "source": "export default __webpack_public_path__ + \"Textar-Min_a80903b9.ttf\";"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+          "index": 0,
+          "index2": 3,
+          "size": 704,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+              "loc": "mini-css-extract-plugin"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = require(\"../font/Textar-Min.ttf\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\nexports.push([module.id, \"@font-face {\\n  font-family: 'Textar-Min';\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") format(truetype);\\n}\\n.search-font {\\n  font-family: Textar-Min;\\n  font-weight: bold;\\n}\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+        },
+        {
+          "id": 1,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2517,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+          "issuerId": 0,
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+              "type": "cjs require",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "2:34-94"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "\"use strict\";\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\n\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+        },
+        {
+          "id": 2,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\runtime\\getUrl.js",
+          "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
+          "index": 2,
+          "index2": 1,
+          "size": 830,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+          "issuerId": 0,
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+              "type": "cjs require",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/getUrl.js",
+              "loc": "3:38-101"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "\"use strict\";\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n\n\n  url = url && url.__esModule ? url.default : url;\n\n  if (typeof url !== 'string') {\n    return url;\n  } // If url is already wrapped in quotes, remove them\n\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    // eslint-disable-next-line no-param-reassign\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, '\\\\n'), \"\\\"\");\n  }\n\n  return url;\n};"
+        },
+        {
+          "id": 3,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\file-loader\\dist\\cjs.js??ref--8-0!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\font\\Textar-Min.ttf",
+          "name": "./src/font/Textar-Min.ttf",
+          "index": 3,
+          "index2": 2,
+          "size": 67,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+          "issuerId": 0,
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\less-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\postcss-loader\\src\\index.js??ref--6-3!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\px2rem-loader\\index.js??ref--6-4!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\lesssearch.less",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less",
+              "type": "cjs require",
+              "userRequest": "../font/Textar-Min.ttf",
+              "loc": "4:36-69"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-3!./node_modules/px2rem-loader??ref--6-4!./src/search/lesssearch.less (referenced with cjs require)"
+          ],
+          "depth": 1,
+          "source": "export default __webpack_public_path__ + \"Textar-Min_a80903b9.ttf\";"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!node_modules/less-loader/dist/cjs.js!node_modules/postcss-loader/src/index.js??ref--6-3!node_modules/px2rem-loader/index.js??ref--6-4!src/search/lesssearch.less"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\DevWorkspace\\webpack-mine\\myproject\\dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 2883,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "a484f33fb57399209a67",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/search/index.css",
+              "index": 0,
+              "index2": 1,
+              "size": 366,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \".search-font {\\r\\n  font-size: 20px;\\r\\n  color: red;\\r\\n  display: flex;\\r\\n  border: 1px solid;\\r\\n  border-radius: 5px;\\r\\n}\\r\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+            },
+            {
+              "id": 1,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2517,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+              "issuerId": 0,
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/search/index.css",
+              "issuerPath": [
+                {
+                  "id": 0,
+                  "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./src/search/index.css"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./src/search/index.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/search/index.css",
+                  "type": "cjs require",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:34-94"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "\"use strict\";\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\n\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./src/search/index.css",
+          "index": 0,
+          "index2": 1,
+          "size": 366,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+              "loc": "mini-css-extract-plugin"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"../../node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \".search-font {\\r\\n  font-size: 20px;\\r\\n  color: red;\\r\\n  display: flex;\\r\\n  border: 1px solid;\\r\\n  border-radius: 5px;\\r\\n}\\r\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+        },
+        {
+          "id": 1,
+          "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\babel-loader\\lib\\index.js!D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2517,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+          "issuerId": 0,
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./src/search/index.css",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./src/search/index.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "D:\\DevWorkspace\\webpack-mine\\myproject\\node_modules\\css-loader\\dist\\cjs.js!D:\\DevWorkspace\\webpack-mine\\myproject\\src\\search\\index.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./src/search/index.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./src/search/index.css",
+              "type": "cjs require",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "2:34-94"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "\"use strict\";\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\n\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!src/search/index.css"
+    }
+  ]
+}
