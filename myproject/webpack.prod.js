@@ -17,14 +17,14 @@ const prodConfig = {
       {
         test: /.js$/,
         use: [
-          // {
-          //   loader: 'thread-loader',
-          //   options: {
-          //     workers: 3
-          //   }
-          // },
-          // 'babel-loader',
-          'happypack/loader'
+          {
+            loader: 'thread-loader',
+            options: {
+              workers: 3
+            }
+          },
+          'babel-loader',
+          // 'happypack/loader'
           // 'eslint-loader',
         ],
       }
@@ -49,9 +49,9 @@ const prodConfig = {
     //     },
     //   ],
     // }),
-    new HappyPack({
-      loaders: ['babel-loader']
-    })
+    // new HappyPack({
+    //   loaders: ['babel-loader']
+    // })
     // new BundleAnalyzerPlugin()
   ],
   optimization: {
@@ -67,7 +67,7 @@ const prodConfig = {
     // },
     minimizer: [
       new TerserPlugin({
-        parallel: false,
+        parallel: true,
       }),
     ]
   },
