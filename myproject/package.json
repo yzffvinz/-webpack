@@ -8,7 +8,8 @@
     "build:ssr": "webpack --config ./node_modules/webpack-build-suite/lib/webpack.ssr.js",
     "build:stats": "webpack --config ./webpack.prod.js --json > stats.json",
     "watch": "webpack --watch",
-    "dev": "webpack-dev-server --open --config ./node_modules/webpack-build-suite/lib/webpack.dev.js"
+    "dev": "webpack-dev-server --open --config ./node_modules/webpack-build-suite/lib/webpack.dev.js",
+    "build:dll": "webpack --config ./webpack.dll.js"
   },
   "keywords": [],
   "author": "",
